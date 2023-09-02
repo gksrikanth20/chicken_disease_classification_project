@@ -5,7 +5,7 @@ import os
 from pathlib import Path
 import logging
 
-logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
+logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:') # setting up to see how the logging format should look like.
 
 project_name = "cnnClassifier"
 
@@ -24,7 +24,8 @@ list_of_files = [
     "params.yaml",
     "requirements.txt",
     "setup.py",
-    "research/trials.ipynb"
+    "research/trials.ipynb",
+    "templates/index.html" #for creating a web page
 
 
 ]
